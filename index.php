@@ -18,7 +18,7 @@ echo "<body style='background-color:green'>";
 };
 
 if (strpos($hostname, 'demo') !== false) {
-echo "<body style='background-color:red'>";
+echo "<body style='background-color:yellow'>";
 };
 
 ?>
@@ -26,7 +26,7 @@ echo "<body style='background-color:red'>";
 
 </b>
 
-<p><b>Variante 1</b></p>
+<p><b>Variante 2</b></p>
 	</body>
 </html>
 
