@@ -7,6 +7,11 @@ print $hostname;
 		$secondsWait = 0.5;
 header("Refresh:$secondsWait");
 
+$headers =  getallheaders();
+foreach($headers as $key=>$val){
+  echo $key . ': ' . $val . '<br>';
+}
+
 
 
 if (strpos($hostname, 'blue') !== false) {
@@ -26,7 +31,7 @@ echo "<body style='background-color:blue'>";
 
 </b>
 
-<p><b>Variante 4</b></p>
+<p><b>Variante Header</b></p>
 	</body>
 </html>
 
