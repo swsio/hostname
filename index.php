@@ -4,7 +4,7 @@
 <?php
 $hostname = gethostname();
 print $hostname;
-		$secondsWait = 5;
+		$secondsWait = 0.5;
 header("Refresh:$secondsWait");
 
 $headers =  getallheaders();
@@ -23,7 +23,7 @@ echo "<body style='background-color:green'>";
 };
 
 if (strpos($hostname, 'demo') !== false) {
-echo "<body style='background-color:blue'>";
+echo "<body style='background-color:red'>";
 };
 
 ?>
