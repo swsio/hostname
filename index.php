@@ -6,7 +6,9 @@ $hostname = gethostname();
 print $hostname;
 		$secondsWait = 0.5;
 header("Refresh:$secondsWait");
-
+print '<br>';
+print 'Header Data:';
+print '<br>';
 $headers =  getallheaders();
 foreach($headers as $key=>$val){
   echo $key . ': ' . $val . '<br>';
