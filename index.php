@@ -25,7 +25,7 @@ echo "<body style='background-color:green'>";
 };
 
 if (strpos($hostname, 'demo') !== false) {
-echo "<body style='background-color:red'>";
+echo "<body style='background-color:white'>";
 };
 
 ?>
